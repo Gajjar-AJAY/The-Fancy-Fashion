@@ -1,0 +1,162 @@
+.product_section{
+	width: 100%;
+	margin: 40px auto;
+}
+
+.product_title{
+	text-align: center;
+	font-size: 30px;
+	color: #023048;
+	padding-top: 30px;
+
+}
+
+.product_solgun{
+	text-align: center;
+	letter-spacing: 1px;
+	color: grey;
+	text-transform: capitalize;
+	padding-bottom: 30px;
+}
+.product_section ul{
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.product_section ul li{
+	/*background: #999;*/
+	list-style: none;
+	padding: 8px 20px;
+	margin: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-weight: 500;
+	color: #023048;
+}
+
+
+.product_section ul li.active{
+	background:#023048;
+	color: #fff;
+}
+
+.product{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.product .itembox{
+	position: relative;
+	width: 280px;
+	height:300px;
+	background: lightblue;
+	margin: 15px;
+}
+
+
+.flip-card-inner img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+
+}
+
+
+
+.flip-card {
+  	background-color: transparent;
+  	position: relative;
+	width: 280px;
+	height:300px;
+	margin: 15px;
+	perspective: 1000px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #023048;
+  color: white;
+  transform: rotateY(180deg);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flip-card-back .button_cart{
+	text-align: center;
+	height: auto;
+	width: 100px;
+	padding: 10px;
+	color: #023048;
+	background: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.flip-card-back .button_cart:hover{
+	cursor: pointer;
+	color: white;
+	background: #023048;
+	transition: all 0.2s linear;
+	border: 1px solid #fff;
+}
+
+
+.view_all_content{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.view_all {
+	text-align: center;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	background: #023048;
+	color: white;
+	text-decoration: none;
+	padding: 6px;
+    width: 80px;
+    font-size: 14px;
+    height: auto;
+    color: white;
+}

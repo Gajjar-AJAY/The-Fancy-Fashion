@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Product Details | Fancy</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/product_details.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/our_product.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/brand.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
+
+</head>
+<body style="background: white;">
+
+
+<!-- Header Start -->
+<header class="header">
+	<a class="logo">
+		<img src="../img/header/logo_2.png" height="100">
+	</a>
+
+	<nav class="navbar">
+		<a href="index.html#home">Home</a>
+		<a href="index.html#service">Shop By</a>
+		<a href="index.html#product">Our Product</a>
+		<a href="index.html#blog">Blog</a>
+		<a href="index.html#testimonials">Testimonials</a>
+		<a href="#brand">Brand</a>
+	</nav>
+
+	<div class="header_btn">
+		<div id="main_btn" class="fa fa-heart" aria-hidden="true"></div>
+		<div id="main_btn" class="fa fa-shopping-cart" aria-hidden="true"></div>
+		<div id="main_btn" class="fa fa-user" aria-hidden="true"></div>
+		<div class="fa fa-bars" aria-hidden="true" id="menu"></div>
+	</div>
+</header>
+<!-- Header End -->
+
+
+<!-- Product details Start -->
+<div class="product_detail_content">
+	<div class="product_images">
+		<div class="container">
+		
+		  <div class="mySlides">
+		    <img src="../img/product/Mens_1_2.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+		    <img src="../img/product/Mens_1_3.png" style="width:100%">
+		  </div>
+		    
+		  <div class="mySlides">
+		    <img src="../img/product/Mens_1_4.png" style="width:100%">
+		  </div>
+		    
+		    
+		  <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+		  <a class="next" onclick="plusSlides(1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+
+		
+		  <div class="row">
+		    <div class="column">
+		      <img class="demo cursor" src="../img/product/Mens_1_2.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor" src="../img/product/Mens_1_3.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+		    </div>
+		    <div class="column">
+		      <img class="demo cursor" src="../img/product/Mens_1_4.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+		    </div>
+		    
+		  </div>
+		</div>
+	</div>
+
+	<div class="product_detail">
+		<label class="sub_title">Men's Fashion</label>
+		<h3 class="product_title">Casual Blue Shirt For Mens </h3>
+		<p class="product_desc">When chilling at home or hitting the gym, this t-shirt is functional enough to fetch the best of both comfort and style worlds!Dual-layered armpits and bamboo-cotton-spandex fabric composition prevent sweat-spotting. No matter where you live or what you do, no sweat stain is what we claim!Dual-layered armpits and bamboo-cotton-spandex fabric composition prevent sweat-spotting. No matter where you live or what you do, no sweat stain is what we claim!  </p>
+		<div class="price_sec">
+			<label style="color: darkgrey; font-size: 15px;font-weight: 600;letter-spacing: 0.8px;">Price : </label><br>
+			<label class="new_price"><i class="fa fa-inr" aria-hidden="true"></i> 399.00</label>
+			<label class="old_price"><i class="fa fa-inr" aria-hidden="true"></i> 599.00</label>
+		</div>
+
+		<div  id="size">
+			<label style="color: darkgrey; font-size: 16px;font-weight: 600;">Size : </label><br>
+			<button class="size_btn actives">S</button>
+			<button class="size_btn">M</button>
+			<button class="size_btn">L</button>
+			<button class="size_btn">XL</button>
+		</div>
+
+
+
+		<div class="qty">
+			<label style="color: darkgray; font-size: 15px;font-weight: 600;">Qty :</label>
+			<input type="number" name="qty" value="1" min="1" max="5">
+
+			<label class="stock">Status : <span>In stock</span></label>
+		</div>
+
+		<div class="btn_product">
+			<button class="wish_btn"><i class="fa fa-heart-o" aria-hidden="true"></i>Add Wishlist</button>
+			<button class="goto_btn"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Go to Cart</button>
+		</div>
+	</div>
+</div>
+<!-- Product details End -->
+
+<!-- Related Product Start -->
+<section style="background: #efefef;">
+	<h2 class="product_title">Related Product</h2>
+
+
+	<div class="product">
+			<!-- Row 1 -->
+			<div class="flip-card mens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Mens_1.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Sweet Shirt</h1> 
+			      <p>Men's Sweet Shirt For Winter Collections In All Size Availables.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+			
+			<div class="flip-card womens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Woman_3.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Black Dress</h1> 
+			      <p>Women's Black Party Dress In All Size Availables.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card girls">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/girl_2.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Pink Skirt</h1> 
+			      <p>Pink Pretty Skirt for girls and look like Barbie Girls.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card boys">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/boy_2.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Blue Kurta</h1> 
+			      <p>Blue Kurta for children boys with priented Koti and Fency Pokect.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+		</div>
+</section>
+<!-- Related Product End -->
+
+
+
+
+<!-- Brand Start -->
+<section class="brand_container" id="brand">
+	<h2 class="product_title" style="margin-bottom: -80px;">Our Top Brands</h2>
+	<div class="carousel" id="brand_slider" 
+  data-flickity='{ "freeScroll": true, "wrapAround": true , "autoPlay": 1500 }'>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_1.jpg" alt="brand_1"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_2.png" alt="brand_2"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_3.png" alt="brand_3"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_4.png" alt="brand_4"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_5.jpg" alt="brand_5"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_6.jpg" alt="brand_6"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_7.jpg" alt="brand_7"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_8.jpg" alt="brand_8"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_9.jpg" alt="brand_9"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_10.png" alt="brand_10"></div>
+	</div>
+</section>
+<!-- Brand End -->
+
+
+<!-- Footer Start -->
+<section class="footer_container">
+	<div class="footer_about">
+		<div style="text-align: center;">
+		<img src="../img/logo/logo.png" height="100" width="100">
+		</div>
+		<p>The Fancy Fashion is online fashionable clothe selling e-commrece website. We have 1000+ brand cloths collections for every one like mens,womans, children, boys, girls etc.</p>
+	</div>
+
+	<div class="imp_link">
+		<h3>Important Link</h3>
+		<a href="">Home</a>
+		<a href="">Our Product</a>
+		<a href="">Blog</a>
+		<a href="">Testinomal</a>
+	</div>
+
+	<div class="product_footer">
+		<h3>Product</h3>		
+		<a href="">Mens</a>
+		<a href="">Womans</a>
+		<a href="">Girls</a>
+		<a href="">Boys</a>
+	</div>
+
+	<div class="newlatter">
+		<h3>New Letter</h3>
+		<p>Enter your email id for get connect with us and also follow on our soical media.</p>
+		<div class="email_box">
+			<input type="email" name="email" placeholder="ajaygajjar@gmail.com">
+			<a href="#">Send</a>	
+		</div>
+
+		<div class="social_media">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			<i class="fa fa-whatsapp" aria-hidden="true"></i>
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</div>
+	</div>
+</section>
+<!-- Footer End -->
+
+
+<!-- Copyright Start -->
+<div class="copyright">
+	<p>Copyright @2022 <span>The Fancy Fashion.</span> All Rights Reserved</p>
+</div>
+<!-- Copyright End -->
+
+
+<script src="../js/all_script.js">	</script>
+<script src="../js/size_active.js">	</script>
+<script src="../js/product_slider.js">	</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+// Add active class to the current button (highlight it)
+	
+</script>
+
+
+<script>
+
+</script>
+</body>
+</html>

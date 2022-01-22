@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Fancy | index</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/our_product.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/perllax.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/blog.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/testimonials.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/instagram.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/brand.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
+
+</head>
+
+<style type="text/css">
+	::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #023048; 
+}
+::selection {
+  color: white;
+  background: #023048;
+}
+
+</style>
+
+<body>
+
+<!-- Header Start -->
+<header class="header">
+	<a class="logo">
+		<img src="../img/header/logo_2.png" height="100">
+	</a>
+
+	<nav class="navbar">
+		<a href="index#home">Home</a>
+		<a href="index#service">Shop By</a>
+		<a href="index#product">Our Product</a>
+		<a href="index#blog">Blog</a>
+		<a href="index#testimonials">Testimonials</a>
+		<a href="index#brand">Brand</a>
+	</nav>
+
+	<div class="header_btn">
+		<div id="main_btn" class="fa fa-heart" aria-hidden="true"></div>
+		<div id="main_btn" class="fa fa-shopping-cart" aria-hidden="true"></div>
+		<div id="main_btn" class="fa fa-user" aria-hidden="true"></div>
+		<div class="fa fa-bars" aria-hidden="true" id="menu"></div>
+	</div>
+</header>
+<!-- Header End -->
+
+<!--  Banner Start -->
+	<div class="carousel" data-flickity='{ "wrapAround": true }'>
+	  <div class="carousel-cell">
+	  	<img src="../img/header/banner_1.png" alt="banner_1">
+	  </div>
+
+	  <div class="carousel-cell">
+	  	<img src="../img/header/banner_2.png" alt="banner_1">
+	  </div>
+	</div>
+<!-- Banner End  -->
+
+
+<!-- Service Start -->
+	<div class="service_container" id="service">
+		<div class="service_box">
+			<div class="box_left">
+				<i class="fa fa-truck" aria-hidden="true"></i>
+			</div>
+
+			<div class="box_right">
+				<label>Free Shipping</label>
+				<span>Order Over $200</span>
+			</div>
+		</div>
+
+		<div class="service_box">
+			<div class="box_left">
+				<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+			</div>
+
+			<div class="box_right">
+				<label>Secure Payment</label>
+				<span>100% Secure Payment</span>
+			</div>
+		</div>
+
+
+		<div class="service_box">
+			<div class="box_left">
+				<i class="fa fa-gift" aria-hidden="true"></i>
+			</div>
+
+			<div class="box_right">
+				<label>Gift Wouchers</label>
+				<span>Buy Now $200 to $400</span>
+			</div>
+		</div>
+
+		<div class="service_box">
+			<div class="box_left">
+				<i class="fa fa-user" aria-hidden="true"></i>
+			</div>
+
+			<div class="box_right">
+				<label>24 X 7 Support</label>
+				<span>Ready Support</span>
+			</div>
+		</div>
+	</div>
+<!-- Service End -->
+
+
+<!-- Shop Now Start -->
+	<div class="shop_now_container">
+
+		<!-- 1st Card -->
+		<div class="shop_now_cart">
+			<div class="shop_now_left">
+				<img src="../img/card/card_1.png" alt="shop_now_1">
+			</div>
+
+			<div class="shop_now_right">
+				<span>New Collections</span>
+				<label>Men's Stylish Blazer </label>
+				<a href="#">Shop Now</a>
+			</div>
+		</div>
+
+		<!-- 2nd Card -->
+		<div class="shop_now_cart">
+			<div class="shop_now_left">
+				<img src="../img/card/card_2.png" alt="shop_now_1">
+			</div>
+
+			<div class="shop_now_right">
+				<span>Top Collections</span>
+				<label>Womens Summer Shop</label>
+				<a href="#">Shop Now</a>
+			</div>
+		</div>
+
+
+		<!-- 3rd Card -->
+		<div class="shop_now_cart">
+			<div class="shop_now_left">
+				<img src="../img/card/card_3.png" alt="shop_now_1">
+			</div>
+
+			<div class="shop_now_right">
+				<span>Top Collections</span>
+				<label>Children Latest Shop </label>
+				<a href="#">Shop Now</a>
+			</div>
+		</div>
+	</div>
+<!-- Shop Now End -->
+
+
+<!-- Our Product Start -->
+	<section class="product_section" id="product">
+		<h2 class="product_title">Our Featured Product</h2>
+		<p class="product_solgun"> Find out of our latest collections for makeing <br> your feastival good, great and memorables or Get rewards.</p>
+		<ul>
+			<li class="lists active" data-filter="All">All</li>
+			<li class="lists" data-filter="mens">Mens</li>
+			<li class="lists" data-filter="womens">Womens</li>
+			<li class="lists" data-filter="children">Children</li>
+			<li class="lists" data-filter="boys">Boys</li>
+			<li class="lists" data-filter="girls">Girls</li>
+		</ul>
+
+		<div class="product">
+			<!-- Row 1 -->
+			<div class="flip-card mens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Mens_1.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Sweet Shirt</h1> 
+			      <p>Men's Sweet Shirt For Winter Collections In All Size Availables.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+			
+			<div class="flip-card womens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Woman_3.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Black Dress</h1> 
+			      <p>Women's Black Party Dress In All Size Availables.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card girls">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/girl_2.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Pink Skirt</h1> 
+			      <p>Pink Pretty Skirt for girls and look like Barbie Girls.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card boys">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/boy_2.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Blue Kurta</h1> 
+			      <p>Blue Kurta for children boys with priented Koti and Fency Pokect.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+
+			<!-- Row 2 -->
+
+			<div class="flip-card children">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Child_4.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Orange Oragnic </h1> 
+			      <p>Best Petty Coat For Little Children Girls Look Like Princess. </p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card mens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Mens_2.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Blue Shirt</h1> 
+			      <p>Men's Blue  Casual Shirt For Summer Collections Of Shirts.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card boys">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/boy_1.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Yellow Kurta</h1> 
+			      <p>Yellow, Yellow Dirty Fellow, Kurta Look Like Krishna.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card womens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Woman_2.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Printed Sari</h1> 
+			      <p>Women's Sari In Favourite RedOrange Color Combition.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<!-- Row 3 -->
+
+			<div class="flip-card womens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Woman_4.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Red Dress</h1> 
+			      <p>Women's Beautiful Red Carpet Fancy Dress For Partys.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card girls">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/girl_1.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Yellow Dress</h1> 
+			      <p>Yellow Flower Shade Dress For Pretty Princess Girls.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card children">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Child_1.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Ross Gold PettyCoat</h1> 
+			      <p>Best Petty Coat For Little Children Girls Look Like Princess.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+			<div class="flip-card mens">
+			  <div class="flip-card-inner">
+			    <div class="flip-card-front">
+			      <img src="../img/product/Mens_4.png" alt="Avatar">
+			    </div>
+			    <div class="flip-card-back">
+			      <h1>Red T-Shirt</h1> 
+			      <p>Men's Red Half Sleev T-Shirt With Cap In All Size Availables.</p> 
+			      <p><a class="button_cart" href="product_details.html"> Add To carts</a></p>
+			    </div>
+			  </div>
+			</div>
+
+		</div>
+	</section>
+<!-- Our Product End -->
+
+<div class="view_all_content">
+	<a class="view_all" href="">View All</a>
+</div>
+
+
+<!-- Coupon Start -->
+	<div class="margin_perllax"></div>
+		<section class="perllax">
+			<div class="perllax_inner">
+				<div class="coupon_main">
+					<h1>Super discount for your first purchase  <input type="text" value="FREE DELIVERY" id="myInput"><button class="copy_btn"><i onclick="myFunction()" class="fa fa-clipboard" aria-hidden="true"></i></button> </h1>
+				</div>
+			</div>
+		</section>
+	<div class="margin_perllax"></div>
+<!-- Coupon End -->
+
+
+<!-- Blog Start -->
+<section class="blog_section" id="blog">
+	<h2 class="product_title">Latest Blog</h2>
+	<p class="product_solgun">Check out our latest news with the help of<br> our blog sections. So, you can get an idea about fashion.  </p>
+
+
+	<div class="blog_content">
+
+		<!-- 1st Blog Card -->
+		<div class="singal_blog">
+			<img src="../img/blog/blog_1.jpg" alt="blog_1">
+				<div class="overlay">
+					<h2 class="blog_status">Men's</h2>
+					<label class="blog_date"> 12 December 2021 </label>
+					<p class="blog_description">2021's Biggest Sneaker is Getting Us so pumped for summer collections.</p>
+					<a class="view_more_btn" href="">View More</a>
+				</div>
+		</div>
+
+		<!-- 2nd Blog Card -->
+		<div class="singal_blog">
+			<img src="../img/blog/blog_2.jpg" alt="blog_2">
+				<div class="overlay">
+					<h2 class="blog_status">Women's</h2>
+					<label class="blog_date"> 07 July 2018 </label>
+					<p class="blog_description">Latest women collection for winter session and get more fashoin design.</p>
+					<a class="view_more_btn" href="">View More</a>
+				</div>
+		</div>
+
+
+		<!-- 3rd Blog Card -->
+		<div class="singal_blog">
+			<img src="../img/blog/blog_3.jpg" alt="blog_3">
+				<div class="overlay">
+					<h2 class="blog_status">Children's</h2>
+					<label class="blog_date"> 21 May 2021 </label>
+					<p class="blog_description">Best fashionable design for young, beautiful, pretty Childrens.</p>
+					<a class="view_more_btn" href="">View More</a>
+				</div>
+		</div>
+	</div>
+</section>
+<!-- Blog End -->
+
+
+
+
+<!-- Testinomal Start -->
+
+<section id="testimonials" class="testimonials_content">
+	<h2 class="product_title">Testinomals</h2>
+	<p class="product_solgun">Let's See what say our regular customer <br>talk about our letest collecitons. So, You get an idea !</p>
+
+	<div class="carousel_testinomal" data-flickity='{ "autoPlay": 3500, "pauseAutoPlayOnHover": false }'>
+		<div class="carousel-review">
+	  		<div class="slide_content">
+				<img src="../img/testinomials/1.png"><br><br>
+				<p class="client_review">This sweater is pretty great. I love the length and the fit and mostly I love how cozy it is. It keeps me warm, looks great and is soft and luxurious. I am thinking about getting another in a different color because if its this good, why not?</p>
+				<label class="client_name">~ Ajay Gajjar</label>
+			</div>
+	  	</div>
+
+
+	  	<div class="carousel-review">
+	  		<div class="slide_content">
+				<img src="../img/testinomials/2.png"><br><br>
+				<p class="client_review">I honestly thought I have to send this back. Thought I had look way to huge or like a marshmallow. But its cute and looks good! Perfect for cold days. Although I did order a size down and that was perfect. </p>
+				<label class="client_name">~ Hardik Gajjar</label>
+			</div>
+	  	</div>
+
+	  	<div class="carousel-review">
+	  		<div class="slide_content">
+				<img src="../img/testinomials/3.png"><br><br>
+				<p class="client_review">I used to buy these jeans at a local store. When it went out of business I thought I was stuck. But then I found them on Amazon. Since I have been buying them for years I knew what size to buy for the fit I wanted.</p>
+				<label class="client_name">~ Ravi Gajjar</label>
+			</div>
+	  	</div>
+
+	</div>
+<!-- 
+	<a class="prev" onclick="plusSlides(-1)">❮</a>
+	<a class="next" onclick="plusSlides(1)">❯</a> -->
+</section>
+
+<!-- Testinomal End -->
+
+
+<!-- Instagram Start -->
+	<h2 class="product_title">Follow On Instagram</h2>
+	<section class="instagram_content">
+		<div class="instagram_row">  
+			<img src="../img/instagram/instagram_1.jpg" id="myImg1"  alt="Snow" alt="instagram_1">
+		</div>
+		<div class="instagram_row">
+			<img src="../img/instagram/instagram_2.jpg" id="myImg2" alt="instagram_1">
+		</div>
+		<div class="instagram_row">
+			<img src="../img/instagram/instagram_3.jpg" id="myImg3" alt="instagram_1">
+		</div>
+		<div class="instagram_row">
+			<img src="../img/instagram/instagram_4.png" id="myImg4" alt="instagram_1">
+		</div>	
+	</section>
+
+	<!-- Model -->
+
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img02">
+		</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img03">
+		</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img04">
+		</div>
+<!-- Instagram End -->
+
+
+<!-- Brand Start -->
+<section class="brand_container" id="brand">
+	<h2 class="product_title" style="margin-bottom: -80px;">Our Top Brands</h2>
+	<div class="carousel" id="brand_slider" 
+  data-flickity='{ "freeScroll": true, "wrapAround": true , "autoPlay": 1500 }'>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_1.jpg" alt="brand_1"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_2.png" alt="brand_2"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_3.png" alt="brand_3"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_4.png" alt="brand_4"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_5.jpg" alt="brand_5"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_6.jpg" alt="brand_6"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_7.jpg" alt="brand_7"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_8.jpg" alt="brand_8"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_9.jpg" alt="brand_9"></div>
+	  <div class="carousel_brnad"><img src="../img/brand/brand_10.png" alt="brand_10"></div>
+	</div>
+</section>
+
+<!-- Brand End -->
+
+
+<!-- Footer Start -->
+<section class="footer_container">
+	<div class="footer_about">
+		<div style="text-align: center;">
+		<img src="../img/logo/logo.png" height="100" width="100">
+		</div>
+		<p>The Fancy Fashion is online fashionable clothe selling e-commrece website. We have 1000+ brand cloths collections for every one like mens,womans, children, boys, girls etc.</p>
+	</div>
+
+	<div class="imp_link">
+		<h3>Important Link</h3>
+		<a href="">Home</a>
+		<a href="">Our Product</a>
+		<a href="">Blog</a>
+		<a href="">Testinomal</a>
+	</div>
+
+	<div class="product_footer">
+		<h3>Product</h3>		
+		<a href="">Mens</a>
+		<a href="">Womans</a>
+		<a href="">Girls</a>
+		<a href="">Boys</a>
+	</div>
+
+	<div class="newlatter">
+		<h3>New Letter</h3>
+		<p>Enter your email id for get connect with us and also follow on our soical media.</p>
+		<div class="email_box">
+			<input type="email" name="email" placeholder="ajaygajjar@gmail.com">
+			<a href="#">Send</a>	
+		</div>
+
+		<div class="social_media">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			<i class="fa fa-whatsapp" aria-hidden="true"></i>
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</div>
+	</div>
+</section>
+<!-- Footer End -->
+
+
+<!-- Copyright Start -->
+
+<div class="copyright">
+	<p>Copyright @2022 <span>The Fancy Fashion.</span> All Rights Reserved</p>
+</div>
+
+<!-- Copyright End -->
+
+<!--  All Scripts -->
+
+<script src="../js/all_script.js">	</script>
+<script src="../js/scroll.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="../js/product_filter.js"></script>
+<script src="../js/copy_click.js"></script>
+<!-- <script src="../js/review.js"></script> -->
+<script src="../js/instagram_gallary.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

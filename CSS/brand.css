@@ -1,0 +1,29 @@
+.brand_container{
+	height: auto;
+	width: 100%;
+	background: #fff;
+	
+}
+
+
+
+.carousel {
+  /*background: #FAFAFA;*/
+  width: 100%;
+}
+
+.carousel_brnad {
+	margin: 20px;	
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.carousel_brnad img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}

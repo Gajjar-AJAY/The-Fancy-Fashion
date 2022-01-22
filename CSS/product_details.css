@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+	::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #023048; 
+}
+::selection {
+  color: white;
+  background: #023048;
+}
+
+.product_detail_content{
+	height: auto;
+	width: 100%;
+	margin-top: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	/*background: lightgreen;*/
+}
+
+.product_images{
+	height: auto;
+	width: 40%;
+	margin: 20px;
+	/*background: lightblue;*/
+}
+
+
+.product_detail{
+	height: auto;
+	width: 50%;
+	padding: 30px;
+	/*background: #efefef;*/
+	/*display: block;*/
+}
+
+.product_detail .sub_title{
+	color: #023048;
+	opacity: 0.9;
+}
+
+.product_detail .product_title{
+	color: #023048;
+}
+
+.product_desc{
+	color: grey;
+	font-size: 15px;
+	text-align: justify;
+}
+
+
+.price_sec .new_price{
+	color: black;
+	margin-right: 20px;
+	font-weight: 500;
+}
+
+.old_price{
+	color: grey;
+	text-decoration: line-through;
+	font-size: 15px;
+}
+
+#size{
+	padding: 10px 0px;
+}
+.size_btn{
+	text-decoration: none;
+	background: #fff;
+	border:none;
+	outline: none;
+	/*background: #efefef;*/
+	color: #023048;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align:center;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 10px 20px 10px 0px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	cursor: pointer;
+}
+
+.size_btn.actives, .size_btn:hover{
+	background: #023048;
+	color: #fff;
+	transition: all 0.2s linear;
+}
+
+.btn_product{
+	/*background: green;*/
+
+}
+
+.wish_btn{
+	background: #023048;
+	color: #fff;
+	font-size: 15px;
+	padding: 7px 20px;
+	border: 2px solid #fff;
+	outline: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+
+.goto_btn{
+	font-size: 15px;
+	padding: 7px 20px;
+	border: 2px solid #023048;
+	outline: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+	background: #fff;
+	color: #023048;
+	cursor: pointer;
+}
+
+
+.goto_btn:hover{
+	background: #023048;
+	color: #fff;
+	border: 2px solid #023048;
+	transition: all 0.2s linear;
+}
+
+
+.wish_btn i,.goto_btn i{
+	margin: 5px;
+}
+
+
+.share{
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.share i{
+	color: #023048;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.qty{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.qty label{
+	letter-spacing: 1px;
+}
+
+.qty input[type="number"]
+{
+	width: 30px;
+	text-align: center;
+	margin-left: 10px;
+	border: 1px solid #023048;
+	outline: none;
+}
+
+.stock{
+	color: darkgray;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.stock span{
+	color: #023048;
+	text-transform: capitalize;
+}
+
+
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  width: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+.mySlides img{
+	height: 400px;
+	object-fit: contain;
+	background: white;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #023048;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #023048;
+  color: white;
+  transition: all 0.2s linear;	
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+
+.row{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	margin-top: 40px;
+}
+
+.row img{
+	height: 100px;
+	width: 100px;
+	object-fit: contain;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+	background: #fff;
+  	width: auto;
+  	padding: 5px;
+  	border-radius: 10px;
+  	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.product_detail .product_title{
+	text-align: left;
+	font-size: 30px;
+	color: #023048;
+	padding-top: 10px;
+}
+
+
+
+/* Responsive Page   */
+
+
+@media (max-width: 1000px){
+	.product_images {
+	    height: auto;
+	    width: 30%;
+	    margin: 20px;
+	    /* background: lightblue; */
+	}
+
+		.wish_btn, .goto_btn {
+    font-size: 12px;
+    border: 1px solid;
+    padding: 10px;
+    font-weight: 600;
+	}
+
+	.product_desc {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 700px){
+.product_detail_content {
+    height: auto;
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+	}
+
+	.product_images {
+    height: auto;
+    width: 95%;
+	}
+
+	.product_detail {
+    height: auto;
+    width: 90%;
+    padding: 20px;
+	}
+   
+   .btn_product{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	}
+}
